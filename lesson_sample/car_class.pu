@@ -1,4 +1,4 @@
-@startuml car_class
+@startuml
 
 ' クラスの基本テンプレート
 class Classname {
