@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="ページ1" id="Is6QZiPxNQHIuqzMfwIe">
+    <mxGraphModel dx="144" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-1" value="利用者図書カード発行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-2" target="JP1EWg2TkIEanDeZ_PoH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="270" />
+              <mxPoint x="60" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-2" value="図書の一覧表示&lt;div&gt;（借用と返却）&lt;/div&gt;&lt;div&gt;（Max8冊、15日）&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-3" value="貸し出し図書情報&lt;div&gt;・貸し出し先氏名&lt;/div&gt;&lt;div&gt;・書籍コード&lt;/div&gt;&lt;div&gt;・貸し出し期限&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.339;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-4" target="JP1EWg2TkIEanDeZ_PoH-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="300" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-4" value="図書検索" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-5" value="図書情報&lt;div&gt;・書籍コード&lt;/div&gt;&lt;div&gt;・棚の位置コード&lt;/div&gt;&lt;div&gt;・書籍名&lt;/div&gt;&lt;div&gt;・著者名&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="305" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.45;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-1" target="JP1EWg2TkIEanDeZ_PoH-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="330" as="sourcePoint" />
+            <mxPoint x="170" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="100" />
+              <mxPoint x="80" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-8" target="JP1EWg2TkIEanDeZ_PoH-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-8" value="図書カード作成" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-9" value="図書カード情報&lt;div&gt;・IDナンバー&lt;/div&gt;&lt;div&gt;・氏名&lt;/div&gt;&lt;div&gt;・住所&lt;/div&gt;&lt;div&gt;・電話番号&lt;/div&gt;&lt;div&gt;・メールアドレス&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-10" target="JP1EWg2TkIEanDeZ_PoH-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-10" value="借用予約カード提出" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="280" />
+              <mxPoint x="650" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-11" value="貸し出し予約情報&lt;div&gt;・予約者氏名&lt;/div&gt;&lt;div&gt;・書籍コード&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-12" value="貸し出し可能連絡" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-1" target="JP1EWg2TkIEanDeZ_PoH-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="260" as="sourcePoint" />
+            <mxPoint x="310" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.392;entryY=-0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-10" target="JP1EWg2TkIEanDeZ_PoH-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="320" as="sourcePoint" />
+            <mxPoint x="740" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-23" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-1" target="JP1EWg2TkIEanDeZ_PoH-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-1" target="JP1EWg2TkIEanDeZ_PoH-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="290" as="sourcePoint" />
+            <mxPoint x="490" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="160" />
+              <mxPoint x="500" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JP1EWg2TkIEanDeZ_PoH-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.608;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JP1EWg2TkIEanDeZ_PoH-12" target="JP1EWg2TkIEanDeZ_PoH-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="290" as="sourcePoint" />
+            <mxPoint x="660" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
