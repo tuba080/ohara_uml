@@ -1,0 +1,21 @@
+@startuml car_class
+
+' クラスの基本テンプレート
+class Classname {
+  - field : type
+  + method(type) : type
+}
+
+' 車クラス
+class 車 {
+  - メーカー
+  - 色
+  - 走行距離
+  --
+  + 走る()
+  + 曲がる()
+  + 止まる()
+  + 走行距離を増やす()
+}
+
+@enduml
