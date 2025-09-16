@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram id="BeR18RkFURHxkZRHWmmV" name="ページ1">
+    <mxGraphModel dx="964" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-2" value="名前" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-3" value="RoboDog" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-4" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JOupoR_kSnBi2eCG8X0s-2" target="JOupoR_kSnBi2eCG8X0s-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-500" y="270" as="sourcePoint" />
+            <mxPoint x="-340" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-5" value="時刻" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-6" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JOupoR_kSnBi2eCG8X0s-5" target="JOupoR_kSnBi2eCG8X0s-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-350" y="250" as="sourcePoint" />
+            <mxPoint x="-393.33331298828125" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-7" value="挨拶" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-8" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JOupoR_kSnBi2eCG8X0s-7" target="JOupoR_kSnBi2eCG8X0s-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-330" y="280" as="sourcePoint" />
+            <mxPoint x="-260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-9" value="足し算結果" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-10" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.661;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JOupoR_kSnBi2eCG8X0s-9" target="JOupoR_kSnBi2eCG8X0s-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-220" y="270" as="sourcePoint" />
+            <mxPoint x="-160" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-11" value="2つの整数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JOupoR_kSnBi2eCG8X0s-12" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JOupoR_kSnBi2eCG8X0s-11" target="JOupoR_kSnBi2eCG8X0s-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-190" y="260" as="sourcePoint" />
+            <mxPoint x="-120" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
