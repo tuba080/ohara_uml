@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+actor "ユーザー" as fc
+rectangle Restaurant {
+  usecase "名前を変更する" as UC1
+  usecase "時刻に応じた挨拶" as UC2
+  usecase "2つの整数の足し算" as UC3
+}
+fc --> UC1
+fc --> UC2
+fc --> UC3
+@enduml
