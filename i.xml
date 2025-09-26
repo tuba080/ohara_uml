@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="BBショップ注文管理システム" id="bbshop-order-system">
+    <mxGraphModel dx="1244" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 顧客 -->
+        <mxCell id="cust" value="顧客" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Webサイト -->
+        <mxCell id="web" value="BBショップWebサイト" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 注文管理システム -->
+        <mxCell id="order" value="注文管理システム" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 倉庫システム -->
+        <mxCell id="warehouse" value="倉庫システム" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 配送業者 -->
+        <mxCell id="delivery" value="配送業者" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- フロー -->
+        <mxCell id="flow1" value="商品検索" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="cust" target="web" />
+        </mxCell>
+
+        <mxCell id="flow2" value="商品情報取得" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="web" target="order" />
+        </mxCell>
+
+        <mxCell id="flow3" value="商品一覧返却" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="order" target="web" />
+        </mxCell>
+
+        <mxCell id="flow4" value="検索結果表示" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="web" target="cust" />
+        </mxCell>
+
+        <mxCell id="flow5" value="商品選択・注文確定" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="cust" target="web" />
+        </mxCell>
+
+        <mxCell id="flow6" value="注文情報登録" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="web" target="order" />
+        </mxCell>
+
+        <mxCell id="flow7" value="出荷依頼" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="order" target="warehouse" />
+        </mxCell>
+
+        <mxCell id="flow8" value="出荷完了通知" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="warehouse" target="order" />
+        </mxCell>
+
+        <mxCell id="flow9" value="配送依頼" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="order" target="delivery" />
+        </mxCell>
+
+        <mxCell id="flow10" value="配送完了通知" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="delivery" target="order" />
+        </mxCell>
+
+        <mxCell id="flow11" value="発送完了メール" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="order" target="web" />
+        </mxCell>
+
+        <mxCell id="flow12" value="発送完了通知" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell source="web" target="cust" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
