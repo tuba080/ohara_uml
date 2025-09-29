@@ -1,0 +1,41 @@
+@startuml ECShop_UseCaseDiagram
+left to right direction
+actor ユーザ as U1
+actor 管理者 as U2
+
+rectangle "ECショップシステム" as ECS {
+  usecase "☆商品検索" as UC1
+  usecase "☆商品閲覧" as UC2
+  usecase "☆カート操作（追加／閲覧／削除）" as UC3
+  usecase "☆注文" as UC4
+  usecase "☆決済" as UC5
+  usecase "☆キャンセル依頼（発送前）" as UC6
+  usecase "☆返品依頼（到着後10日以内）" as UC7
+  usecase "ログイン／ログアウト" as UC8
+
+  usecase "注文・在庫確認" as UC9
+  usecase "発送状況確認" as UC10
+  usecase "返品状況確認" as UC11
+  usecase "返金指示" as UC12
+}
+
+note right of ECS
+☆マーク:
+ユースケース記述、ロバストネス図、シーケンス図を省略
+end note
+
+U1 --> UC1
+U1 --> UC2
+U1 --> UC3
+U1 --> UC4
+U1 --> UC5
+U1 --> UC6
+U1 --> UC7
+U1 --> UC8
+
+U2 --> UC9
+U2 --> UC10
+U2 --> UC11
+U2 --> UC12
+
+@enduml
